@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-const { HelloRequest, HelloReply } = require("./proto/hello_pb.js");
-const { GreeterClient } = require("./proto/hello_grpc_web_pb.js");
+const { HelloRequest, HelloReply } = require("./proto/hello/hello_pb.js");
+const { GreeterClient } = require("./proto/hello/hello_grpc_web_pb.js");
 
 const HelloApp = () => {
   const [text, setText] = useState("");
